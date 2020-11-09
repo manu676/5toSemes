@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,51 @@
     <link rel="stylesheet" href="./style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
+    <style>
+        .dropdown-item {
+            color: white;
+        }
+
+        div[class*=dropdown-menu] p {
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
     <div class="container-fluid ">
-        <header class="justify-content-md-center justify-content-md-between justify-content-sm-center  justify-content-sm-between">
+        <header
+            class="justify-content-md-center justify-content-md-between justify-content-sm-center  justify-content-sm-between">
             <div>
                 <div class="row h-100">
                     <div class="ml-5 mt-2 col-lg-1 d-none d-lg-block d-lx-block">
                         <div class=" pt-2 justify-content-center align-items-center">
-                        <img src="./imagenes/campaña1.svg" class="pl-3" type="link" style="height: 50px;" alt="Responsive image">
-                        <a class="mb-2 text-dark" style="font-size: 15px;"> <br>Cuidate plus!</a> 
+                            <img src="./imagenes/campaña1.svg" class="pl-3" type="link" style="height: 50px;"
+                                alt="Responsive image">
+                            <a class="mb-2 text-dark" style="font-size: 15px;"> <br>Cuidate plus!</a>
                         </div>
                     </div>
                     <div class="ml-1 mt-2 col-lg-1 d-none d-lg-block d-lx-block border-left">
                         <div class=" pt-2 ml-1 justify-content-center align-items-center">
-                        <img src="./imagenes/campaña2.svg" class="pl-3" type="link" style="height: 50px;" alt="Responsive image">
-                        <a class="mb-2 text-dark" style="font-size: 15px;"> <br>Lo trending</a> 
+                            <img src="./imagenes/campaña2.svg" class="pl-3" type="link" style="height: 50px;"
+                                alt="Responsive image">
+                            <a class="mb-2 text-dark" style="font-size: 15px;"> <br>Lo trending</a>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-5 d-none d-md-block d-lg-block d-lx-block">
                         <div class="pt-1">
-                        <img src="./imagenes/marca-claro-logo-vector.png" class="mx-auto d-lg-block w-auto" style="height: 100px;width: 250px;" alt="Responsive image">
+                            <img src="./imagenes/marca-claro-logo-vector.png" class="mx-auto d-lg-block w-auto"
+                                style="height: 100px;width: 250px;" alt="Responsive image">
                         </div>
                     </div>
-                    <div class="justify-content-xs-center align-items-sm-center d-none  d-sm-block d-md-block d-lg-block d-lx-block col-lg-1 col-md-1 col-sm-4 col-xs-4 mt-2 mx-auto ">
+                    <div class="justify-content-xs-center align-items-sm-center d-none d-md-block d-lg-block d-lx-block col-lg-1 col-md-1 col-sm-4 col-xs-4 mt-2 mx-auto ">
                         <div class="d-flex mr-2 mt-4 mx-auto">
                             <button type="button" class="btn dropdown-toggle border" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            <i class="iconsvg icon-es"></i>
-                            ES
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="iconsvg icon-es"></i>
+                                ES
                             </button>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item border-dark" href="#">
@@ -45,62 +60,72 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-xs-center mx-auto mt-0">
-                        <div class="align-items-sm-center align-items-xs-center col-lg-2 col-md-2 col-sm-4 col-xs-4 mt-2 mx-auto">
+                    <div class="d-none d-lg-flex justify-content-xs-center mx-auto mt-0">
+                        <div
+                            class="align-items-sm-center align-items-xs-center col-lg-2 col-md-2 col-sm-4 col-xs-4 mt-2 mx-auto">
                             <div class="d-flex mt-4 justify-content-center align-items-center">
-                            <button type="button" class="btn btn-secondary border border-dark">
-                                Suscríbete
-                            </button>
+                                <button type="button" class="btn btn-secondary border border-dark">
+                                    Suscríbete
+                                </button>
                             </div>
                         </div>
-                        <div class="align-items-sm-center align-items-xs-center col-lg-2 col-md-2 col-sm-4 col-xs-4 mt-2 mx-auto">
+                        <div
+                            class="align-items-sm-center align-items-xs-center col-lg-2 col-md-2 col-sm-4 col-xs-4 mt-2 mx-auto">
                             <div class="d-flex mt-4 justify-content-center align-items-center">
-                            <button type="button" class="btn btn-danger border border-dark">
-                                Iniciar
-                            </button>
+                                <button type="button" class="btn btn-danger border border-dark">
+                                    Iniciar
+                                </button>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </header>
     </div>
-    <div class="container-fluid bg-danger justify-content-center align-items-center mt-3 sticky-top">
-        <nav id="mainNav"  class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container-fluid bg-danger justify-content-center align-items-center mt-lg-3 sticky-top">
+        <nav id="mainNav" class="navbar navbar-expand-lg pl-lg-0 navbar-dark bg-danger">
             <div class="container">
-                <div class="d-block d-sm-block d-xs-block d-md-none d-lg-none" id="nav1">
-                    <img src="./imagenes/Marca.svg" class="img-fluid mb-2" style="height: 50px; width: 250px; float: auto;" alt="Responsive image">
+                <div class="d-block d-sm-block d-xs-block d-md-none d-lg-none mx-auto" style="width: 70%; margin-right: 10%;"
+                    id="nav1">
+                    <img src="./imagenes/Marca Black.svg" class="img-fluid mb-2 text text-white" alt="Responsive image">
                 </div>
-                <button class="navbar-toggler mb-1 mx-auto border-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler mb-1 mx-auto border-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse pr-5 mr-5" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto ml-5">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto ml-3 ">
                         <li class="nav-item active">
-                            <a class="nav-link font-weight-bold text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link font-weight-bold text-white" href="#">Home <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Futbol MX
                             </a>
-                            <div class="dropdown-menu bg-danger border-right-0 border-left-0 border-white font-weight-bold mt-2" aria-labelledby="navbarDropdown">
-                                    <p class="text-center text-uppercase font-weight-bold  mb-1">México</p>
-                                    <a class="dropdown-item" href="#">Liga MX</a>
-                                    <a class="dropdown-item" href="#">Liga de Expansión MX</a>
-                                    <a class="dropdown-item" href="#">Copa MX</a>
-                                    <a class="dropdown-item" href="#">Liga MX</a>
-                                    <a class="dropdown-item" href="#">Concachampions</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Futbol femenil MX</a>
-                                    <a class="dropdown-item" href="#">Deportistas méxicanos</a>
+                            <div class="dropdown-menu bg-danger border-right-0 border-left-0 border-white font-weight-bold mt-2"
+                                aria-labelledby="navbarDropdown">
+                                <p class="text-center text-uppercase font-weight-bold  mb-1">México</p>
+                                <a class="dropdown-item" href="#">Liga MX</a>
+                                <a class="dropdown-item" href="#">Liga de Expansión MX</a>
+                                <a class="dropdown-item" href="#">Copa MX</a>
+                                <a class="dropdown-item" href="#">Liga MX</a>
+                                <a class="dropdown-item" href="#">Concachampions</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Futbol femenil MX</a>
+                                <a class="dropdown-item" href="#">Deportistas méxicanos</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Futbol internacional   
+                            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Futbol internacional
                             </a>
-                            <div class="dropdown-menu bg-danger border-right-0 border-left-0 border-white font-weight-bold mt-2" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu bg-danger border-right-0 border-left-0 border-white font-weight-bold mt-2"
+                                aria-labelledby="navbarDropdown">
                                 <p class="text-center text-uppercase font-weight-bold  mb-1">Internacional</p>
                                 <a class="dropdown-item" href="#">America</a>
                                 <a class="dropdown-item" href="#">Europa</a>
@@ -110,10 +135,12 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Motor   
+                            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Motor
                             </a>
-                            <div class="dropdown-menu bg-danger border-right-0 border-left-0 border-white font-weight-bold mt-2" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu bg-danger border-right-0 border-left-0 border-white font-weight-bold mt-2"
+                                aria-labelledby="navbarDropdown">
                                 <p class="text-center text-uppercase font-weight-bold  mb-1">Carrera autos</p>
                                 <a class="dropdown-item" href="#">F1</a>
                                 <a class="dropdown-item" href="#">Nascar</a>
@@ -122,10 +149,12 @@
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Otros deportes   
+                            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Otros deportes
                             </a>
-                            <div class="dropdown-menu bg-danger border-right-0 border-left-0 border-white font-weight-bold mt-2" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu bg-danger border-right-0 border-left-0 border-white font-weight-bold mt-2"
+                                aria-labelledby="navbarDropdown">
                                 <p class="text-center text-uppercase font-weight-bold  mb-1">Deportes</p>
                                 <a class="dropdown-item" href="#">Destacados</a>
                                 <a class="dropdown-item" href="#">Otros</a>
@@ -142,28 +171,58 @@
                             </div>
                         </li>
                     </ul>
-                    <div >
-                        <form class="navbar-nav ml-auto form-inline">
-                            <input class="form-control ml-2" type="search" placeholder="Buscar en marca.com" aria-label="Search">
-                            <!--Poner el icono de buscar como icono-->
-                        </form>    
+                    <div class="mx-auto">
+                        <div class="d-block justify-content-center align-items-center mx-auto col-12 ">
+                            <form class="navbar-nav mt-4 mb-4 mt-lg-0 mb-lg-0 w-sm-100 w-md-100 ml-0 ml-lg-auto form-inline ">
+                                <div class="row col-12 pl-0 pr-0">
+                                <input class="pr-sm-5 pl-sm-5 pl-md-0 pr-md-0 mx-auto
+                                    form-control col-md-8 col-sm-8 mr-sm-0 ml-lg-3" type="search" placeholder="Buscar en marca"
+                                    aria-label="Search">
+                                    <div class="col-md-3 col-sm-3 text-center">
+                                        <input type="button" class="button-add" style="background-image: url(https://img.icons8.com/android/30/000000/search.png);"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex d-lg-none mx-auto justify-content-center mb-3">
+                            <div class="mt-4 ml-2 mr-2">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <button type="button" class="btn btn-danger border border-light">
+                                        Suscríbete
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <button type="button" class="btn btn-danger border border-light">
+                                        Iniciar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     </div>
                 </div>
             </div>
-        </nav>    
+        </nav>
     </div>
     <div class="container-fluid d-none d-lg-block" style="background-color: rgb(238, 238, 238);">
         <div class="container mb-2 col-md-12 col-lg-12 " style=" background-color: rgb(238, 238, 238);">
-            <img src="./imagenes/teams.jpg" class="rounded mx-auto d-block" style="height: auto; background-color: rgb(238, 238, 238);">
+            <img src="./imagenes/teams.jpg" class="rounded mx-auto d-block"
+                style="height: auto; background-color: rgb(238, 238, 238);">
         </div>
     </div>
     <main class="container-fluid">
         <div class="container-fluid">
-                <div class="container justify-content-between">
-                    <img src="https://online.caliente.mx/loadDisplay?member=Tragamonedas360&campaign=DEFAULT&channel=DEFAULT&zone=60856438&lp=54623971"
-                        class="mx-auto d-block mt-3 mb-2 col-md-6 col-lg-6 col-sm-12 col-xs-12" style="height: auto;height: auto;">
-                </div>
+            <div class="container justify-content-between">
+                <img src="https://online.caliente.mx/loadDisplay?member=Tragamonedas360&campaign=DEFAULT&channel=DEFAULT&zone=60856438&lp=54623971"
+                    class="mx-auto d-block mt-3 mb-2 col-md-6 col-lg-6 col-sm-12 col-xs-12"
+                    style="height: auto;height: auto;">
             </div>
+        </div>
         </div>
         <div class="row mt-3">
             <div class="col-12 col-xl-7">
@@ -177,8 +236,9 @@
                     </h1>
                 </div>
             </div>
-            <div class="d-flex flex-column justify-content-around col-12 col-xl-5 overflow-auto" style="height: 420px;">
-                <div class="d-flex border-secondary pb-1 border-bottom border-secondary" style="height: 30%;">
+            <div class="d-flex mt-3 mt-lg-0 flex-column justify-content-around col-12 col-xl-5 overflow-auto"
+                style="height: 420px;">
+                <div class="d-flex mt-3 pb-3 border-secondary pb-1 border-bottom border-secondary" style="height: 31%;">
                     <img class="col-6 col-sm-4 col-lg-3 col-xl-5"
                         src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/06/16046798672539.jpg">
                     <div class="col-6 col-sm-8 col-lg-9 col-xl-7">
@@ -186,8 +246,8 @@
                         <p class="text-dark font-weight-bold">Canelo Álvarez ya es agente libre</p>
                     </div>
                 </div>
-                
-                <div class="d-flex pb-1  border-bottom border-secondary" style="height: 30%;">
+
+                <div class="d-flex mt-3 pb-3 border-bottom border-secondary" style="height: 31%;">
                     <img class="col-6 col-sm-4 col-lg-3 col-xl-5"
                         src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/06/16046427852336.jpg">
                     <div class="col-6 col-sm-8 col-lg-9 col-xl-7">
@@ -195,7 +255,7 @@
                         <p class="text-dark font-weight-bold">La próxima temporada será mejor para Chicharito</p>
                     </div>
                 </div>
-                <div class="d-flex border-secondary pb-1" style="height: 30%;">
+                <div class="d-flex mt-3 pb-3 border-bottom border-secondary" style="height: 31%;">
                     <img class="col-6 col-sm-4 col-lg-3 col-xl-5"
                         src="https://e00-us-marca.uecdn.es/claro/assets/multimedia/imagenes/2020/11/06/16046728905952.jpg">
                     <div class="col-6 col-sm-8 col-lg-9 col-xl-7">
@@ -206,37 +266,38 @@
             </div>
         </div>
         <div class="container pt-3 pb-2">
-            <div class="row justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center">
-                <div class="col-lg-4 col-md-4 col-sm-12">
+            <div
+                class="row justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5">
                     <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/08/16047973743334.jpg"
-                    class="mx-auto d-block " style="height: 200px; width: 220px;">
+                        class="mx-auto d-block " style="height: 200px; width: 220px;">
                     <div class="text-center">
-                        <p>Los Rayos escalan a la novena posición</p>
+                        <p class="mt-3">Los Rayos escalan a la novena posición</p>
                         <h3>Necaza se roba la victoria frente al Pachuca</h3>
                     </div>
-                    <div class="dropdown-divider border-dark"></div>
+                    <div class="dropdown-divider border-dark mt-4"></div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5">
                     <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/07/16047887523412.jpg"
-                    class="mx-auto d-block " style="height: 200px; width: 220px;">
+                        class="mx-auto d-block " style="height: 200px; width: 220px;">
                     <div class="text-center">
-                        <p>El mexicano jugó 62 minutos</p>
+                        <p class="mt-3">El mexicano jugó 62 minutos</p>
                         <h3>El Atlético de M. alcanza el liderato de LaLiga</h3>
                     </div>
-                    <div class="dropdown-divider border-dark"></div>
+                    <div class="dropdown-divider border-dark mt-4"></div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5">
                     <img src="data:image/jpeg;base64,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"
-                    class="mx-auto d-block " style="height: 200px; width: 220px;">
+                        class="mx-auto d-block " style="height: 200px; width: 220px;">
                     <div class="text-center">
-                        <p>Grave lesión de Ansu Fati</p>
+                        <p class="mt-3">Grave lesión de Ansu Fati</p>
                         <h3>Sufre una rotura mineta en su rodilla izquierda</h3>
                     </div>
-                    <div class="dropdown-divider border-dark"></div>   
+                    <div class="dropdown-divider border-dark mt-4"></div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid  d-none d-lg-block d-lx-block">
+        <div class="container-fluid d-none d-lg-block d-lx-block">
             <nav class="navbar navbar-expand-lg navbar-light p-3 border border-left-0 border-right-0 border-dark">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto">
@@ -250,8 +311,9 @@
                             <a class="nav-link ml-5">USA</a>
                         </li>
                         <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle ml-5" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Europa
+                            <a class="nav-link dropdown-toggle ml-5" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Europa
                             </a>
                             <div class="dropdown-menu ml-5" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#">España</a>
@@ -274,18 +336,118 @@
                 </div>
             </nav>
         </div>
+        <div class="row mt-3">
+            <div class="d-flex mt-3 mt-lg-0 flex-wrap">
+                <div class="d-flex mt-3 pb-3 pb-1 col-12 col-lg-4">
+                    <img class="col-6 col-sm-4 col-lg-4"
+                        src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/06/16046798672539.jpg">
+                    <div class="col-6 col-sm-8 col-lg-9 col-xl-7">
+                        <span class="text-primary">Boxeo</span>
+                        <p class="text-dark font-weight-bold">Canelo Álvarez ya es agente libre</p>
+                    </div>
+                </div>
+
+                <div class="d-flex mt-3 pb-3 col-12 col-lg-4">
+                    <img class="col-6 col-sm-4 col-lg-3 col-xl-5"
+                        src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/11/06/16046427852336.jpg">
+                    <div class="col-6 col-sm-8 col-lg-9 col-xl-7">
+                        <span class="text-success">Futbol</span>
+                        <p class="text-dark font-weight-bold">La próxima temporada será mejor para Chicharito</p>
+                    </div>
+                </div>
+
+                <div class="d-flex mt-3 pb-3 col-lg-4">
+                    <img class="col-6 col-sm-4 col-lg-4"
+                        src="https://e00-us-marca.uecdn.es/claro/assets/multimedia/imagenes/2020/11/06/16046728905952.jpg">
+                    <div class="col-6 col-sm-8 col-lg-9 col-xl-7">
+                        <span class="text-success">Futbol</span>
+                        <p class="text-dark font-weight-bold">Alex Cora vuelve como mánager de los Red Sox</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 bg-dark d-none d-lg-flex justify-content-center">
+            <h4 class="col-12 text-center text-white mt-5 mb-4" style="text-transform: uppercase;"><b>Lorem ipsum</b>
+            </h4>
+            <div class="container col-2 m-0 mt-4 mb-5">
+                <div class="text-white">
+                    <h6 style="text-transform: uppercase;"><b>Lorem ipsum</b></h6>
+                    <p class="text-white m-0 p-0">Lorem</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum dolor</p>
+                    <p class="text-white m-0 p-0">Lorem</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum</p>
+                </div>
+            </div>
+            <div class="container col-2 m-0 mt-4 mb-5">
+                <div class="text-white">
+                    <h6 style="text-transform: uppercase;"><b>Lorem ipsum</b></h6>
+                    <p class="text-white m-0 p-0">Lorem</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum dolor</p>
+                    <p class="text-white m-0 p-0">Lorem</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum</p>
+                </div>
+            </div>
+            <div class="container col-2 m-0 mt-4 mb-5">
+                <div class="text-white">
+                    <h6 style="text-transform: uppercase;"><b>Lorem ipsum</b></h6>
+                    <p class="text-white m-0 p-0">Lorem</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum dolor</p>
+                    <p class="text-white m-0 p-0">Lorem</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum</p>
+                </div>
+            </div>
+            <div class="container col-2 m-0 mt-4 mb-5">
+                <div class="text-white">
+                    <h6 style="text-transform: uppercase;"><b>Lorem ipsum</b></h6>
+                    <p class="text-white m-0 p-0">Lorem</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum dolor</p>
+                    <p class="text-white m-0 p-0">Lorem</p>
+                    <p class="text-white m-0 p-0">Lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center m-3">
+            <p class="col-12 text-center font-weight-bold">© Noviembre 2020 Unidad Editorial Información Deportiva,
+                S.L.U. Todos los derechos reservados.</p>
+            <div class="col-12 row row-cols-3 row-cols-lg-3 row-cols-xl-6 mx-5 justify-content-between text-center ">
+                <p>Términos y condiciones de uso</p>
+                <p>Política de privacidad</p>
+                <p>Política de cookies</p>
+                <p>Contacto</p>
+                <p>Publicidad</p>
+                <p>Ayuda</p>
+            </div>
+            <p class="col-12 text-center font-weight-bold">Síguenos en</p>
+            <div class="col-12 d-flex justify-content-center">
+                <div class="d-flex justify-content-between" style="width: 400px">
+                    <img src="https://assets.stickpng.com/images/584ac2d03ac3a570f94a666d.png" class="rounded d-block"
+                        style="width: 40px; height: 40px;">
+                    <img src="https://assets.stickpng.com/images/58e9196deb97430e819064f6.png" class="rounded d-block"
+                        style="width: 40px; height: 40px;">
+                    <img src="data:image/png;base64,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" class="rounded d-block"
+                        style="width: 40px; height: 40px;">
+                    <img src="https://image.flaticon.com/icons/png/512/124/124033.png" class="rounded d-block"
+                        style="width: 40px; height: 40px;">
+                </div>
+            </div>
+        </div>
     </main>
     <div id="scriptsBootstrap">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-        </script>
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+            </script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
-        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
-        </script>      
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
+            </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </div>
 </body>
+
 </html>
